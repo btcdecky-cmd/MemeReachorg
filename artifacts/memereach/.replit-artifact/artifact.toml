@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "MemeReach"
+description = "A premium landing page and interactive product preview for MemeReach, an AI-powered Solana advertising workspace for creating ads, managing campaigns, and growing projects."
+version = "1.0.0"
+id = "artifacts/memereach"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 19919
+
+[services.development]
+run = "pnpm --filter @workspace/memereach run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/memereach", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/memereach/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "19919"
+BASE_PATH = "/"

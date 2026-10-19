@@ -1,0 +1,19 @@
+Build a premium, production-ready landing page for MemeReach — Solana Advertising Infrastructure, an AI-powered platform for creating ads, building campaigns, and growing projects exclusively on Solana.
+
+Design: Use a sleek dark background with vibrant emerald green and neon teal accents, glowing gradients, subtle animations, futuristic 3D Solana-inspired graphics, glassmorphism cards, and premium typography. Make it responsive for mobile, tablet, and desktop.
+
+Hero section: Display the MemeReach logo, navigation links (Home, Features, Pricing, Docs, About), and Connect Wallet button. Main headline: “Build. Create. Advertise. On Solana.” Supporting text: “Generate AI-powered images, animated videos, and advertising campaigns to grow your Solana project—all in one on-chain-focused workspace.” Add Get Started and Watch Demo buttons, plus a visual preview of the AI ad-generation dashboard.
+
+Features section: Include AI Creative Studio, AI Coding Agent, Campaign Manager, Solana-Native Infrastructure, Creative Asset Library, and Analytics & Growth. Each feature should have a custom icon, short description, and subtle hover effects.
+
+How It Works: Present three steps: 1. Prompt your idea. 2. Generate ads and campaigns with AI. 3. Launch and track your Solana campaign.
+
+Additional sections: Include a campaign dashboard preview, pricing plans, frequently asked questions, a strong call-to-action banner reading “Create. Advertise. Grow.”, and a professional footer with social links and documentation.
+
+Functionality: Implement working navigation, responsive layouts, interactive buttons, wallet connection using Solana Wallet Adapter, project creation, prompt input, campaign management, and reusable UI components. Prepare secure backend integration for AI models, creative generation, and on-chain campaign operations. Use real data where integrations exist; clearly label features requiring configuration. Never expose API keys or collect wallet seed phrases.
+
+Technical direction: Use a modern React/Next.js and TypeScript stack, Tailwind CSS, reusable components, and accessible UI patterns. Connect to Solana using supported wallet and SDK integrations. Keep the architecture modular so AI agents, image/video generation, and verified Solana programs can be integrated independently.
+
+Important: Build a functional product interface, not just a static mockup. Prioritize the landing page and responsive design first, then implement the connected features incrementally. Do not claim advertising campaigns are on-chain unless the corresponding verified Solana transaction or program integration is implemented.
+
+Brand identity: MemeReach is a professional Solana-only AI advertising organization. The experience should feel innovative, trustworthy, developer-friendly, and built for the future of on-chain growth.
